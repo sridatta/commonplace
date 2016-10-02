@@ -1,0 +1,21 @@
+{
+  "name": "commonplace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron dist/"
+  },
+  "author": "sridatta",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^0.8.2",
+    "webpack-dev-server": "^1.16.1"
+  },
+  "dependencies": {
+    "pdfjs-dist": "^1.5.385",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1"
+  }
+}
