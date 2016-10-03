@@ -4,14 +4,15 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron dist/"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "sridatta",
   "license": "ISC",
   "devDependencies": {
+    "css-loader": "^0.25.0",
+    "style-loader": "^0.13.1",
     "ts-loader": "^0.8.2",
-    "webpack-dev-server": "^1.16.1"
+    "webpack-hot-middleware": "^2.12.2"
   },
   "dependencies": {
     "pdfjs-dist": "^1.5.385",

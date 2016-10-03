@@ -1,8 +1,8 @@
 import * as React from "react";
 import { render } from "react-dom";
 
-import {Hello} from './Hello';
+import Main from './Main';
 
 render(
-    <Hello compiler="TypeScript" framework="Sridatta and friends..." />,
+    <Main compiler="TypeScript" framework="Sridatta and friends..." />,
     document.getElementById('root'))
